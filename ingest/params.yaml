@@ -1,0 +1,16 @@
+
+pandas:
+  database: pg
+  user: postgres
+  password: admin1234
+  host: localhost
+  port: 5432
+
+spark:
+  database: pg
+  user: postgres
+  password: admin1234
+  host: localhost
+  port: 5432
+  driver: org.postgresql.Driver
+
