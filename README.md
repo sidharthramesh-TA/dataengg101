@@ -82,7 +82,7 @@ We will
 2) Transform the data in the landing table and load it into a staging table
 3) Transform the data in the staging table and load it into a Dimension and a fact table
 4) Make a cron job to refresh the data in the data warehouse every day
-5) Build a simple report using PowerBI to visualize the data
+5) Build a simple report using Metabase to visualize the data
 
 ## Common Tools used in Data Engineering
 
