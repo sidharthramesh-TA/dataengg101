@@ -15,16 +15,20 @@ At the end of this talk you should
 Data engineering is a critical component of data science and analytics, as it provides the foundation for data-driven decision-making.
 It involves the design and creation of systems for collecting and storing data. 
 
+![alt text](/pics/DE1.jpeg)
+
 ## What do Data Engineers Do?
 
 Data engineers are responsible for building and maintaining the infrastructure that enables Extract, Transformation and Loading of Data into a Data Warehouse.
 They work closely with source systems and business analysts to ensure that required data is made available in a accurate and consistently refreshed manner for analysis.
 
+![alt text](/pics/DE8.jpeg)
+
 ## Analytics Valuechain
 
 While Data Engineering is a critical component of the Analytics Valuechain, it is not the only component. Value from data is harvested when data is turned into insights which can later on be acted on.
 
-<insert pic>
+![alt text](/pics/DE4.jpeg)
 
 We note from the picture that Data Engineering takes a lot of Time and Effort, but its not a lot of value intrinsically to store data into tables. 
 But accurate and consistent data is high quality input for analysis and higher value can be harvested.
@@ -33,7 +37,7 @@ But accurate and consistent data is high quality input for analysis and higher v
 
 While Data Engineers do write code logic for ETL, they also have to mess with Operations and infrastructure from time to time
 
-<insert pic>
+![alt text](/pics/DE7.jpeg)
 
 Operations ensure that Data is refreshed consistently in the Data warehouse for reporting and analytics to work. 
 
@@ -48,6 +52,9 @@ It is the process of extracting data from source systems, transforming it into a
 This is the core function of a data engineer.
 Now this process can be done in many ways, and there are many tools available to help with this process.
 Majority of the time, data engineers use SQL for this process. That is if data is already in a database. If it is not in a database, then they have to write code to extract data from source systems.
+
+![alt text](/pics/DE2.jpeg)
+
 We will see how Python Pandas can be used in the Demo to extract data from a csv file and load it into a postgresql database.
 
 ## Data Warehouse
@@ -62,7 +69,11 @@ A data warehouse is different from a database in that it is designed to store an
 It is optimized for read-heavy workloads and is typically used for reporting and analysis.
 A database, on the other hand, is designed to store and manage data for transactional applications and is optimized for write-heavy workloads.
 
+![alt text](/pics/DE5.jpeg)
+
 ## Demo
+
+![alt text](/pics/DE6.jpeg)
 
 In this demo, we will be building a simple data pipeline for a retail company using Pandas and postgresql.
 We will 
