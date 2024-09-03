@@ -8,7 +8,7 @@ def load_db_config(config_path):
         return yaml.safe_load(file)
 
 # Directory containing your .sql files
-sql_files_dir = "/home/sid/Desktop/copilot/table/"
+sql_files_dir = "/home/sid/Desktop/dataengg101/table/"
 
 def execute_sql_file(cursor, file_path):
     with open(file_path, 'r') as file:
@@ -16,7 +16,7 @@ def execute_sql_file(cursor, file_path):
     cursor.execute(sql_script)
 
 def main():
-    db_config_path = '/home/sid/Desktop/copilot/ingest/params.yaml'  # Path to the YAML config file
+    db_config_path = '/home/sid/Desktop/dataengg101/ingest/params.yaml'  # Path to the YAML config file
     db_params = load_db_config(db_config_path)
     try:
         # Connect to the database
