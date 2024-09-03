@@ -97,5 +97,7 @@ Some of the most common tools used in data engineering are:
 
 1) Data Engineering with Python by Paul Crickard Publisher: Packt Publishing
 2) Fundamentals of Data Engineering by Joe Reis, Matt Housley Publisher: O'Reilly Media
-
+3) [Complete Guide to Python for Data Engg](https://www.linkedin.com/learning/complete-guide-to-python-for-data-engineering-from-beginner-to-advanced/)
+4) [Complete Guide to SQL for Data Engg](https://www.linkedin.com/learning/complete-guide-to-sql-for-data-engineering-from-beginner-to-advanced/)
+5) [Data Engg pipeline with Apache Airflow](https://www.linkedin.com/learning/data-engineering-pipeline-management-with-apache-airflow/)
 
