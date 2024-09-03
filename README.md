@@ -64,16 +64,13 @@ A database, on the other hand, is designed to store and manage data for transact
 ## Demo
 
 In this demo, we will be building a simple data pipeline for a retail company using Pandas and postgresql.
-We will be extracting data from a csv file using Python Pandas and loading it into a postgresql database. 
-We will be using the following libraries:
-    1) Pandas
-    2) psycopg2
+We will 
 
-### Install the required libraries
-    
-    ```bash
-    pip install pandas psycopg2
-    ```
+1) extract data from a csv file using Python Pandas and loading it into a postgresql landing table
+2) Transform the data in the landing table and load it into a staging table
+3) Transform the data in the staging table and load it into a Dimension and a fact table
+4) Make a cron job to refresh the data in the data warehouse every day
+5) Build a simple report using PowerBI to visualize the data
 
 ## Common Tools used in Data Engineering
 
