@@ -4,6 +4,7 @@
 Hello and welcome to the Data Engineering 101 talk! 
 Today we will be discussing the basics of data engineering, what it is, and why we need it. 
 At the end of this talk you should 
+
     1) have a better understanding of what data engineering is and its place in the Analytics Valuechain
     2) Know the basics of Data Warehouse and ETL
     3) Be able to build a simple data pipeline using Pandas, and postgresql.
